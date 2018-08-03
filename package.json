@@ -1,0 +1,37 @@
+{
+  "name": "vueDemo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "fangfe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.58corp.com/fangfe/fang-credit.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --progress --hot --open --config config/webpack.dev.config.js",
+    "build": "webpack --progress --config config/webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.2",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.15",
+    "vue-loader": "^14.2.1",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.15",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.2"
+  }
+}
